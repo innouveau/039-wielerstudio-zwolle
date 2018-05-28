@@ -1,6 +1,6 @@
 <?php
 /*
- * 	Template Name: Home-Temp
+ * 	Template Name: Coming Soon
  */?>
 
 <?php get_header(); ?>
