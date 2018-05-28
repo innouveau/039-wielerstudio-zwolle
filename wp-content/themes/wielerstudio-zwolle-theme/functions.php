@@ -1,8 +1,8 @@
 <?php 
 
-// $update_url = '';
-// update_option('siteurl', $update_url );
-// update_option('home', $update_url );
+//$update_url = 'http://localhost/039-deraes/039-wielerstudio-zwolle/dev/';
+//update_option('siteurl', $update_url );
+//update_option('home', $update_url );
 
 
 register_nav_menu('main', 'The main menu');

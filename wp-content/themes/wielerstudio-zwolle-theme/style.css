@@ -45,7 +45,7 @@ body {
     background: #fff;
     width: 100%;
     position: relative;
-    padding: 25px 64px 0 64px;
+    padding: 20px 64px 0 64px;
 }
 
 #content {
@@ -83,7 +83,7 @@ iframe {
 /* identity */
 
 #logo-bar {
-    height: 40px;
+    height: 50px;
     width: 100%;
     background-size: 100% 100%;
     position: relative;
@@ -95,19 +95,19 @@ iframe {
     position: absolute;
     top: 0;
     width: 32px;
-    height: 40px;
+    height: 50px;
     content: '';
     background-size: 100% 100%;
 }
 
 #logo-bar::before {
     left: -32px;
-    background-image: url(img/header-bar-end.svg);
+    background-image: url(img/header-bar-end.png);
 }
 
 #logo-bar::after {
     right: -32px;
-    background-image: url(img/header-bar-end.svg);
+    background-image: url(img/header-bar-end.png);
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -116,7 +116,7 @@ iframe {
 }
 
 #identity {
-    width: 100px;
+    width: 125px;
     height: 100%;
     background: #fff;
     text-align: center;
@@ -132,7 +132,7 @@ iframe {
 #hamburg {
     position: absolute;
     right: 32px;
-    top: 0;
+    top: 5px;
     width: 32px;
     height: 25px;
     cursor: pointer;
@@ -239,8 +239,8 @@ iframe {
 
 #footer h4 {
     text-transform: uppercase;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 22px;
     font-family: 'CervoNeue-LightNeue';
     margin: 0 0 6px 0;
     letter-spacing: 0.75px;
@@ -504,6 +504,47 @@ iframe {
    color: #000;
 }
 
+
+/* home temp */
+
+.home-temp {
+    margin-top: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home-temp-header {
+    font-family: 'CervoNeue-RegularNeue';
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.home-temp-times {
+    font-family: 'CervoNeue-ThinNeue';
+    margin-top: 20px;
+}
+
+.home-temp-times table {
+    width: 280px;
+    margin: 0 auto;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.home-temp-times-footer {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'CervoNeue-RegularNeue';
+    margin-top: 20px;
+}
+
+.home-temp-footer {
+    text-align: center;
+    margin: 40px 0 50px 0;
+}
 
 
 /* single page */
