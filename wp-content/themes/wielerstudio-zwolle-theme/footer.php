@@ -12,6 +12,22 @@
                 TEL. 053 - 203 24 26<br>
                 <a class="footer-mail" href="mailto:roel@wielerstudiozwolle.nl">roel@wielerstudiozwolle.nl</a>
             </h4>
+
+            <h6>
+                OPENINGSTIJDEN
+            </h6>
+            <h4>
+                MA. 12-17 UUR / WO. 12-17 UUR / DO. 12-17 UUR / VR. 12 - 20 UUR / ZA. 10-14 UUR
+            </h4>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/WielerstudioZwolle/" target="_blank">
+                    <i class="fa fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com/wielerstudiozwolle/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
         </div>
     </div>
 </div>
