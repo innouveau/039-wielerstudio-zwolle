@@ -288,7 +288,7 @@ iframe {
 }
 
 .grid-item.grid-item--placeholder {
-    height: 0;
+    height: 0!important;
 }
 
 .grid-item-content { 
@@ -475,33 +475,16 @@ iframe {
    text-transform: uppercase;
    font-size: 14px;
    line-height: 16px;
-   color: #fff;
+   color: #FAC800;
    padding: 4px 5px 3px 5px;
    font-family: 'CervoNeue-LightNeue';
+   background: #000;
 }
 
-.grid-item:nth-child(5n + 2) .outer-link a {
-    background: #0084C4;
-}
 
-.grid-item:nth-child(5n + 3) .outer-link a {
-    background: #E5442E;
-}
-
-.grid-item:nth-child(5n + 4) .outer-link a {
-    background: #000;
-}
-
-.grid-item:nth-child(5n + 5) .outer-link a {
-    background: #F2E534;
-}
-
-.grid-item:nth-child(5n + 1) .outer-link a {
-    background: #008845;
-}
 
 .outer-link a:hover {
-   color: #000;
+   color: #fff;
 }
 
 
