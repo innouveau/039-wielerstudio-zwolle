@@ -44,7 +44,6 @@
             </div>
 
 
-            <!--
             <div id="hamburg">
                 <div class="burger"></div>
                 <div class="burger"></div>
@@ -79,7 +78,6 @@
                     <div class="hamburg-menu-footer"></div>
                 </div>
             </div>
-            -->
         </div>
     </div>
     

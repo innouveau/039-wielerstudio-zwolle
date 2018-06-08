@@ -19,6 +19,7 @@ if (strlen($message) > 32) {
 <div id="message-box">
     <div id="message-box-content">
         <?php echo $message; ?>
+        <?php echo strlen($message); ?>
     </div>
 </div>
 

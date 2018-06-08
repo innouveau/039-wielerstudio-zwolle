@@ -782,12 +782,12 @@ body .flex-control-paging li a {
     margin-top: 0;
 }
 
-#message-box-content strong {
-    color: #F2E123;
+#message-box-content strong, #message-box-content b {
+    color: #FAC800;
 }
 
 #message-box-content a {
-    color: #F2E123;
+    color: #FAC800;
 }
 
 
