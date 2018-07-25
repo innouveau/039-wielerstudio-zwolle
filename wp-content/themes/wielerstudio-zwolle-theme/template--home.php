@@ -57,7 +57,7 @@
                                         if ($link_text == '') {
                                            $link_text = 'Lees verder';
                                         }
-                                        echo '<div class="outer-link"><a class="a-outer-link" href="' . $link . '" target="_self">' . $link_text . '</a></div>';
+                                        echo '<div class="outer-link"><a class="a-outer-link" href="javascript:wireLink(\'' . $link . '\')">' . $link_text . '</a></div>';
                                     } 
                                 ?>
                             </div>
@@ -74,5 +74,17 @@
         <div class="grid-item grid-item--placeholder"></div>
     </div>
 </div>
+
+<script>
+    function wireLink(url) {
+        var domain = '<?php echo get_bloginfo('home'); ?>';
+        if (url.indexOf(domain) > -1) {
+            window.open(url,'_self');
+        } else {
+            window.open(url,'_blank');
+        }
+    }
+
+</script>
 
 <?php get_footer(); ?>
