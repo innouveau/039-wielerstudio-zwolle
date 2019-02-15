@@ -24,7 +24,7 @@
                 <a href="https://www.facebook.com/WielerstudioZwolle/" target="_blank">
                     <i class="fa fa-facebook-square"></i>
                 </a>
-                <a href="https://www.instagram.com/wielerstudiozwolle/" target="_blank">
+                <a href="https://www.instagram.com/wielerstudio/" target="_blank">
                     <i class="fa fa-instagram"></i>
                 </a>
             </div>
